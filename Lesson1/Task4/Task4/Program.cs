@@ -13,13 +13,7 @@ static string? sd(string str1, string str2)
         return string.Concat(str1, str2);
     else  if (str2.Length > str1.Length)
     {
-        //if (!string.IsNullOrEmpty(str1))
-        //{
-        //    int index = str2.IndexOf(str1[0]);
-        //    string substring1 = str2.Substring(0, index);
-        //    string substring2 = str2.Substring(index);
-        //}
-        return null;//i can't return 2 strings so i decide to return null
+        return null;
     }
     return null;
 }
