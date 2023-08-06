@@ -1,0 +1,14 @@
+﻿@model User
+
+<h2>Home Page</h2>
+
+<div>
+    @if (Model.IsAdmin == true)
+    {
+        <p>Welcome Admin!</p>
+    }
+    else
+    {
+        <p>Enjoy this page, loser(no admin)</p>
+    }
+</div>

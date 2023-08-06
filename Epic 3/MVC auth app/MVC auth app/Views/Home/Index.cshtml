@@ -1,0 +1,25 @@
+﻿@model User
+
+<h2>Login</h2>
+@using (Html.BeginForm("Index", "Home", FormMethod.Post))
+{
+    <div>
+
+        <form> 
+
+            <div>
+                <label>Username</label>
+                <input type="text" name="Username" />
+            </div>
+
+            <div>
+                <label>Password </label>
+                <input type="password" name="Password" />
+            </div>
+
+            <button>Login</button>
+        </form>
+
+    </div>
+}
+<p>@ViewBag.NonExistingAccount</p>
